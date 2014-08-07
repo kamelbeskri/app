@@ -2,7 +2,7 @@
 require_once("conf.php");
 require_once("Utils.php");
 require_once("header.html");
-echo "ok";
+
 $user = getUser($facebook,APPURL);
 
 echo $user;
